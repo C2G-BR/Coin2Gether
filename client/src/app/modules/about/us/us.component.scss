@@ -1,0 +1,23 @@
+.aboutus-wrapper .mat-card-image {
+  height: 150px;
+  width: auto;
+
+  display: flex;
+  margin: auto;
+}
+
+.entwickler_wrapper .mat-card-image {
+  width: 50% !important;
+  height: auto;
+  display: flex;
+  margin: auto;
+
+}
+mat-card-header, mat-card-title {
+  display: flex;
+  margin: auto;
+}
+
+mat-card-subtitle, mat-card {
+  text-align: left;
+}

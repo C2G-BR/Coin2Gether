@@ -1,0 +1,37 @@
+<mat-card class="chat-bot-float">
+    <mat-card-content>
+        Chat with me
+    </mat-card-content>
+    <mat-card-footer class="chat-bot-messager">
+        <div class="messages">
+            <div class="messageslist" #scrollMe [scrollTop]="scrollMe.scrollHeight">
+                <div *ngFor="let m of messages" class="message message-{{m.tag}} new">
+                    <p>{{m.title}}</p>
+                </div>
+            </div>
+        </div>
+
+        <div *ngIf="this.isConfirmation; then confirmationBlock else messageBlock"></div>
+        <ng-template #messageBlock>
+            <div class="messages-send">
+                <form [formGroup]="messageForm" (submit)="submit()" autocomplete="off" novalidate>
+                    <mat-form-field appearance="outline" required>
+                        <input id="cb-send-input" formControlName="message" matInput placeholder="Type...">
+                    </mat-form-field>
+                    <button type="submit" mat-button *ngIf="messageForm.valid">Send</button>
+                    <button type="submit" mat-button *ngIf="!messageForm.valid" disabled>Send</button>
+                    <button mat-button cb-cancel-button *ngIf="this.sessionId != null" (click)="cancelSession()">Cancel</button>
+                </form>
+            </div>
+        </ng-template>
+        <ng-template #confirmationBlock>
+            <div class="messages-send">
+                <button type="submit" mat-button (click)="sendConfirmation()">Confirm</button>
+                <button type="submit" mat-button (click)="sendDisconfirmation()">Deny</button>
+                <!-- <form [formGroup]="messageForm" (submit)="submit()" autocomplete="off" novalidate>
+                    
+                </form> -->
+            </div>
+        </ng-template>
+    </mat-card-footer>
+</mat-card>

@@ -1,0 +1,40 @@
+.with-icon {
+    display: flex;
+    align-items: center;
+}
+
+.card-title {
+    height: 20px;
+    overflow-y: hidden;
+}
+
+.card-content {
+    overflow-y: auto;
+    text-overflow: ellipsis;
+}
+
+.link {
+    color: grey;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: grey;
+}
+
+.link:hover {
+    color: black;
+}
+
+.mat-card-actions {
+    text-align: center;
+}
+
+h1 {
+    margin: 10px 0 0 0 !important;
+}
+
+.mat-card-header img {
+    width: 40px !important;
+    height: 40px !important;
+}

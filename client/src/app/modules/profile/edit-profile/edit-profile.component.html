@@ -1,0 +1,64 @@
+<h2 mat-dialog-title i18n="Edit your profile@@enter_your_profile">Edit your profile</h2>
+
+<mat-dialog-content >
+    <form [formGroup]="signupForm">
+        <mat-form-field appearance="outline" fxFlexFill class="signup-full-width">
+            <mat-label i18n="First Name@@enter_firstName">First Name</mat-label>
+            <input fxFlex="100" matInput formControlName="firstName" required>
+            <mat-error *ngIf="signupForm.controls.firstName.invalid">
+                <span *ngIf="signupForm.controls.firstName.hasError('required')"
+                    i18n="This field is mandatory.@@mandatoryFieldID">This field is mandatory.</span>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" fxFlexFill class="signup-full-width">
+            <mat-label i18n="Last Name@@enter_lastName">Last Name</mat-label>
+            <input fxFlex="100" matInput formControlName="lastName" required>
+            <mat-error *ngIf="signupForm.controls.lastName.invalid">
+                <span *ngIf="signupForm.controls.lastName.hasError('required')"
+                    i18n="This field is mandatory.@@mandatoryFieldID">This field is mandatory.</span>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-form-field class="signup-full-width" fxFlexFill appearance="fill">
+            <mat-label i18n="What is your birthday?@@enter_birthday">What is your birthday?</mat-label>
+            <input matInput formControlName="birthdate" [matDatepicker]="picker" [min]="minDate" [max]="maxDate">
+            <mat-datepicker-toggle [for]="picker" matSuffix></mat-datepicker-toggle>
+            <mat-datepicker #picker startView="multi-year"></mat-datepicker>
+            <mat-error *ngIf="signupForm.controls.birthdate.invalid">
+                <span *ngIf="signupForm.controls.birthdate.hasError('required')"
+                    i18n="This field is mandatory.@@mandatoryFieldID">This field is mandatory.</span>
+            </mat-error>
+        </mat-form-field>
+
+        <mat-card>
+            <mat-label>Social Media Accounts</mat-label>
+            <div formArrayName="accounts">
+                <div *ngFor="let account of accounts().controls; let indexAcc=index">
+                    <div [formGroupName]="indexAcc">
+                    
+                        <mat-form-field appearance="outline">
+                        <mat-select class="signup-full-width" fxFlexFill matInput placeholder="e.g. Twitter" formControlName="socialMediaPlatform" required>
+                            <mat-option *ngFor="let platform of socialMediaPlatforms" [value]="platform">
+                              {{platform}}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+                        <mat-form-field appearance="outline">  
+                            <input class="signup-full-width" fxFlexFill matInput appearance="outline" type="text" formControlName="username" required>
+                        </mat-form-field>
+                        <button mat-button (click)="removeAccount(indexAcc); $event.preventDefault()"><mat-icon>delete_forever</mat-icon></button>
+                    </div>
+                </div>
+            </div>
+            <button mat-button type="button" (click)="addAccount(); $event.preventDefault()"><mat-icon aria-hidden="false">person_add</mat-icon></button>
+        </mat-card>
+    </form>
+</mat-dialog-content>
+
+<mat-dialog-actions>
+    <button class="mat-raised-button"(click)="close()">Close</button>
+
+    <button class="mat-raised-button mat-primary" (click)="save()" [disabled]="!signupForm.valid">Save</button>
+
+</mat-dialog-actions>

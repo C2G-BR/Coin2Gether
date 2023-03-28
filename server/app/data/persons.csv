@@ -1,0 +1,101 @@
+id,email,firstName,lastName,username,birthdate,country,password,Bitcoin,Ethereum,Euro,US-Dollar,Canadian-Dollar,Bitcoin Cash,Litecoin,Dogecoin,Yen,Yuán
+1,robert.nguyen@example.org,Robert,Nguyen,vanessacampbell,1989-10-21,Afghanistan,Passwort123!,0.0,0.0,24903.61,0.0,0.0,0.0,18432.33,0.0,0.0,0.0
+2,robert.schmidt@example.org,Robert,Schmidt,dana83,1969-04-21,Uruguay,Passwort123!,0.0,0.0,0.0,0.0,23506.97,0.0,0.0,0.0,0.0,0.0
+3,michael.bennett@example.org,Michael,Bennett,joseph63,1990-05-17,Peru,Passwort123!,0.0,0.0,22125.14,52995.93,0.0,76963.0,0.0,0.0,63638.46,0.0
+4,thomas.ray@example.org,Thomas,Ray,cmartin,1967-06-14,Faroe Islands,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,380.19,0.0,0.0,14.19
+5,william.underwood@example.org,William,Underwood,norman25,1963-09-19,Slovenia,Passwort123!,0.0,0.0,10640.89,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+6,martin.cunningham@example.org,Martin,Cunningham,uhaynes,1997-01-14,Maldives,Passwort123!,9945.54,0.0,0.0,17483.27,21409.51,0.0,0.0,0.0,0.0,0.0
+7,jennifer.lopez@example.org,Jennifer,Lopez,brittany22,1977-07-20,Benin,Passwort123!,72984.92,11963.07,0.0,58779.35,0.0,0.0,0.0,0.0,0.0,22968.97
+8,linda.gonzalez@example.org,Linda,Gonzalez,jeffrey29,2004-03-20,Somalia,Passwort123!,0.0,0.0,0.0,0.0,9982.54,0.0,0.0,0.0,0.0,0.0
+9,angela.kelly@example.org,Angela,Kelly,sandraarmstrong,1992-03-28,Zimbabwe,Passwort123!,14199.32,0.0,0.0,0.0,11130.96,0.0,0.0,0.0,10733.31,0.0
+10,carly.castaneda@example.org,Carly,Castaneda,alexandra52,1993-12-13,Somalia,Passwort123!,69605.67,0.0,65665.62,0.0,0.0,0.0,49172.6,0.0,0.0,0.0
+11,joshua.waters@example.org,Joshua,Waters,jeffrey18,1973-04-08,Iceland,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+12,sean.wilson@example.org,Sean,Wilson,kristin24,1985-10-07,Equatorial Guinea,Passwort123!,0.0,0.0,0.0,0.0,0.0,52023.37,0.0,30786.84,0.0,0.0
+13,chelsey.williams@example.org,Chelsey,Williams,juliarodriguez,1989-04-05,Reunion,Passwort123!,0.0,0.0,21262.04,0.0,15298.97,0.0,0.0,11126.09,0.0,0.0
+14,ashley.ross@example.org,Ashley,Ross,xwhite,1998-07-11,Tunisia,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+15,steven.green@example.org,Steven,Green,tlee,1976-09-10,Libyan Arab Jamahiriya,Passwort123!,0.0,76135.21,0.0,0.0,0.0,0.0,5519.17,0.0,5637.26,0.0
+16,kevin.dunlap@example.org,Kevin,Dunlap,michaelmoore,1971-08-07,Bermuda,Passwort123!,0.0,0.0,0.0,0.0,16231.04,0.0,0.0,0.0,9613.14,0.0
+17,michelle.erickson@example.org,Michelle,Erickson,patriciajohnson,1971-06-22,Saint Helena,Passwort123!,28896.36,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+18,daniel.donovan@example.org,Daniel,Donovan,aharris,1969-03-21,Falkland Islands (Malvinas),Passwort123!,17383.54,0.0,0.0,0.0,13054.11,0.0,0.0,1529.25,0.0,16132.9
+19,sandra.barber@example.org,Sandra,Barber,gonzalezpatrick,1969-09-18,Greece,Passwort123!,0.0,0.0,0.0,0.0,0.0,8360.47,0.0,0.0,0.0,0.0
+20,nicole.curry@example.org,Nicole,Curry,careynicole,1980-10-05,Reunion,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,39658.89,0.0,0.0,0.0
+21,colleen.ortega@example.org,Colleen,Ortega,christinachristian,1987-10-09,Sudan,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+22,joel.sullivan@example.org,Joel,Sullivan,scott98,1980-03-21,Bangladesh,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+23,bobby.phillips@example.org,Bobby,Phillips,shane96,1992-10-14,Ecuador,Passwort123!,12012.63,0.0,0.0,19857.27,0.0,0.0,17014.18,0.0,0.0,0.0
+24,hailey.grant@example.org,Hailey,Grant,angela42,1967-06-30,El Salvador,Passwort123!,0.0,0.0,8310.02,0.0,0.0,792.67,8373.06,7056.41,0.0,0.0
+25,james.cunningham@example.org,James,Cunningham,justin90,2003-08-28,Svalbard & Jan Mayen Islands,Passwort123!,34623.31,0.0,0.0,18828.86,0.0,66673.86,0.0,51353.81,0.0,0.0
+26,samantha.wilson@example.org,Samantha,Wilson,kingmelissa,2001-08-26,Saint Pierre and Miquelon,Passwort123!,14813.93,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,21110.13
+27,anthony.palmer@example.org,Anthony,Palmer,stephencooper,2003-02-06,South Georgia and the South Sandwich Islands,Passwort123!,4694.69,0.0,0.0,40190.85,49527.89,50630.11,0.0,0.0,0.0,0.0
+28,samuel.martinez@example.org,Samuel,Martinez,ayersedwin,1996-03-08,Greenland,Passwort123!,0.0,0.0,24317.23,0.0,18676.62,0.0,0.0,4951.48,0.0,0.0
+29,christopher.lopez@example.org,Christopher,Lopez,martinezmariah,2001-10-14,Vietnam,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,36149.45,0.0,0.0,0.0
+30,christopher.mejia@example.org,Christopher,Mejia,vallen,2001-09-26,Cyprus,Passwort123!,0.0,60510.45,0.0,0.0,0.0,48409.99,0.0,0.0,0.0,34456.56
+31,jamie.adkins@example.org,Jamie,Adkins,logancowan,1982-07-02,Romania,Passwort123!,0.0,0.0,54563.79,0.0,77347.46,0.0,30745.61,0.0,0.0,0.0
+32,alexander.harris@example.org,Alexander,Harris,obauer,1997-06-27,Israel,Passwort123!,0.0,0.0,0.0,0.0,10757.68,0.0,85311.7,0.0,0.0,0.0
+33,pamela.dds@example.org,Pamela,DDS,jennifer26,1986-11-20,Faroe Islands,Passwort123!,0.0,0.0,0.0,37423.09,30940.83,57856.89,0.0,0.0,0.0,0.0
+34,todd.vargas@example.org,Todd,Vargas,rwhite,2002-06-01,Kyrgyz Republic,Passwort123!,0.0,0.0,0.0,5375.61,0.0,0.0,0.0,0.0,0.0,0.0
+35,alison.mahoney@example.org,Alison,Mahoney,stokescaitlin,2001-12-16,Lithuania,Passwort123!,0.0,10391.4,46047.25,0.0,0.0,0.0,2885.7,0.0,0.0,50149.87
+36,amanda.reyes@example.org,Amanda,Reyes,mcook,1987-10-22,Japan,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+37,eric.patel@example.org,Eric,Patel,dianapowers,2002-08-05,Falkland Islands (Malvinas),Passwort123!,0.0,0.0,16117.7,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+38,mark.lee@example.org,Mark,Lee,edwardoconnell,1994-06-18,Luxembourg,Passwort123!,0.0,0.0,0.0,0.0,20748.19,0.0,42537.84,0.0,0.0,0.0
+39,karen.jones@example.org,Karen,Jones,bentonjames,1980-06-03,Namibia,Passwort123!,0.0,0.0,29224.82,0.0,11742.6,0.0,0.0,15014.74,0.0,18337.68
+40,joel.frye@example.org,Joel,Frye,paulray,2001-05-01,Kyrgyz Republic,Passwort123!,0.0,32416.62,6626.37,30196.18,39217.53,0.0,0.0,10343.61,0.0,0.0
+41,zoe.miller@example.org,Zoe,Miller,sheena87,1996-03-05,Chad,Passwort123!,0.0,42064.55,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29416.08
+42,jorge.stone@example.org,Jorge,Stone,nhiggins,1994-03-08,Cambodia,Passwort123!,0.0,0.0,0.0,0.0,6880.22,0.0,0.0,15200.65,0.0,0.0
+43,steven.garrett@example.org,Steven,Garrett,ecarter,2001-04-24,Cape Verde,Passwort123!,0.0,52987.05,0.0,0.0,62719.81,0.0,0.0,0.0,0.0,0.0
+44,randy.allen@example.org,Randy,Allen,wsanders,1965-09-03,Vietnam,Passwort123!,0.0,0.0,0.0,0.0,53516.31,0.0,0.0,74966.73,0.0,0.0
+45,jimmy.burton@example.org,Jimmy,Burton,marcus13,1974-03-31,Togo,Passwort123!,0.0,0.0,4839.37,0.0,0.0,0.0,0.0,0.0,0.0,6233.4
+46,kevin.taylor@example.org,Kevin,Taylor,kelliburns,1982-04-20,Brunei Darussalam,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,239.71
+47,janice.lopez@example.org,Janice,Lopez,ftaylor,1988-08-29,Netherlands Antilles,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+48,kyle.sawyer@example.org,Kyle,Sawyer,jasonwilliams,1989-06-22,Malaysia,Passwort123!,0.0,14448.11,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+49,mr..caldwell@example.org,Mr.,Caldwell,chelsealong,1997-03-17,Christmas Island,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,18922.74
+50,gregory.taylor@example.org,Gregory,Taylor,hortonlucas,1992-09-28,Palestinian Territory,Passwort123!,0.0,0.0,0.0,0.0,11700.0,0.0,0.0,0.0,0.0,0.0
+51,joseph.tyler@example.org,Joseph,Tyler,timothylogan,2003-04-16,Saudi Arabia,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5204.57,21770.21,0.0
+52,steven.terrell@example.org,Steven,Terrell,lmorris,1979-01-08,Madagascar,Passwort123!,0.0,1318.77,0.0,0.0,0.0,0.0,0.0,0.0,1657.59,0.0
+53,dana.miller@example.org,Dana,Miller,xadams,1969-01-03,Grenada,Passwort123!,17012.32,0.0,0.0,0.0,16839.21,0.0,0.0,0.0,0.0,0.0
+54,christopher.lawrence@example.org,Christopher,Lawrence,ashleypeterson,1989-03-22,Tajikistan,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+55,sheila.patterson@example.org,Sheila,Patterson,andrewperez,1975-11-21,Spain,Passwort123!,0.0,0.0,0.0,3907.69,0.0,0.0,10463.69,0.0,0.0,0.0
+56,antonio.miller@example.org,Antonio,Miller,charles77,1963-02-04,Sri Lanka,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,36252.79,0.0
+57,kimberly.kaiser@example.org,Kimberly,Kaiser,ericburnett,1968-03-03,Greenland,Passwort123!,38385.32,0.0,0.0,0.0,0.0,0.0,0.0,13576.02,33923.95,0.0
+58,jeffery.french@example.org,Jeffery,French,proctorkelly,1993-07-09,Bahrain,Passwort123!,0.0,46564.77,0.0,0.0,0.0,44980.75,0.0,0.0,0.0,0.0
+59,shawn.collins@example.org,Shawn,Collins,ashley07,1977-07-09,Montserrat,Passwort123!,0.0,0.0,0.0,3086.71,0.0,0.0,0.0,0.0,0.0,0.0
+60,william.perez@example.org,William,Perez,sara22,1969-11-20,Bhutan,Passwort123!,0.0,16317.9,0.0,0.0,0.0,16996.53,0.0,0.0,0.0,0.0
+61,rachel.ochoa@example.org,Rachel,Ochoa,stacydavis,1976-04-06,South Africa,Passwort123!,0.0,9554.98,0.0,6228.79,0.0,0.0,0.0,0.0,4508.1,0.0
+62,kelly.castaneda@example.org,Kelly,Castaneda,robert27,1987-11-04,Cocos (Keeling) Islands,Passwort123!,0.0,0.0,1243.62,4246.27,0.0,0.0,1600.08,44.49,0.0,2447.51
+63,tracy.charles@example.org,Tracy,Charles,josephbrown,1981-07-17,San Marino,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+64,mrs..davidson@example.org,Mrs.,Davidson,walter89,1983-03-12,Ukraine,Passwort123!,0.0,0.0,0.0,294.03,0.0,569.48,0.0,0.0,0.0,750.52
+65,andre.davidson@example.org,Andre,Davidson,sandra19,1998-03-25,Germany,Passwort123!,0.0,0.0,0.0,47576.06,0.0,0.0,0.0,0.0,0.0,0.0
+66,chad.kelley@example.org,Chad,Kelley,brownerin,2001-03-16,French Guiana,Passwort123!,0.0,0.0,0.0,0.0,22259.52,0.0,0.0,0.0,0.0,0.0
+67,amanda.crawford@example.org,Amanda,Crawford,vingram,1982-03-28,Russian Federation,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,12880.81,0.0,0.0,0.0
+68,gina.hutchinson@example.org,Gina,Hutchinson,johnbrown,1964-03-17,Indonesia,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+69,chelsey.blanchard@example.org,Chelsey,Blanchard,travishannah,1984-08-24,Nicaragua,Passwort123!,1401.47,0.0,0.0,0.0,0.0,0.0,0.0,1255.82,1832.32,0.0
+70,alexandra.simon@example.org,Alexandra,Simon,wrightvickie,1969-08-17,Poland,Passwort123!,333.98,0.0,0.0,0.0,1612.49,0.0,0.0,0.0,0.0,0.0
+71,amanda.morales@example.org,Amanda,Morales,matthewdavis,1983-01-17,Afghanistan,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8334.31
+72,cameron.christensen@example.org,Cameron,Christensen,hollandelizabeth,1971-01-25,Aruba,Passwort123!,0.0,28785.24,0.0,1373.4,0.0,0.0,0.0,0.0,49756.25,0.0
+73,john.robertson@example.org,John,Robertson,vargasjessica,1979-11-23,Germany,Passwort123!,30869.77,0.0,68310.18,0.0,19664.57,0.0,0.0,0.0,29932.92,17308.72
+74,bridget.white@example.org,Bridget,White,reyesthomas,1978-04-29,Moldova,Passwort123!,0.0,0.0,3571.14,0.0,0.0,15950.29,0.0,0.0,0.0,0.0
+75,william.hall@example.org,William,Hall,zacharysandoval,1993-09-11,Guinea,Passwort123!,40877.68,7465.05,0.0,19847.1,0.0,0.0,0.0,0.0,30051.62,0.0
+76,roberto.boyle@example.org,Roberto,Boyle,johnbyrd,1984-05-19,Niue,Passwort123!,0.0,43897.33,0.0,0.0,41325.16,16335.9,0.0,0.0,0.0,0.0
+77,tammy.russell@example.org,Tammy,Russell,michaelclark,1982-06-15,Mayotte,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+78,lori.bell@example.org,Lori,Bell,thompsonchristopher,1983-01-20,Macedonia,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,25380.22,0.0
+79,theodore.ramirez@example.org,Theodore,Ramirez,toddnicholson,1969-12-26,Bulgaria,Passwort123!,0.0,0.0,49046.97,0.0,0.0,37897.66,0.0,0.0,2671.55,0.0
+80,kelly.sanders@example.org,Kelly,Sanders,nashsamantha,1981-06-02,Fiji,Passwort123!,0.0,0.0,0.0,10360.45,0.0,9262.88,0.0,0.0,0.0,0.0
+81,jennifer.joyce@example.org,Jennifer,Joyce,swalker,1994-11-23,Turkmenistan,Passwort123!,0.0,0.0,3958.75,0.0,0.0,0.0,0.0,0.0,1555.9,0.0
+82,michael.reed@example.org,Michael,Reed,jennifer74,1983-01-06,Bolivia,Passwort123!,401.45,242.67,0.0,0.0,467.51,0.0,0.0,0.0,493.32,0.0
+83,jason.baker@example.org,Jason,Baker,vbooth,1963-01-31,Saint Pierre and Miquelon,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,26253.96,0.0
+84,chris.willis@example.org,Chris,Willis,lori01,1995-09-02,Western Sahara,Passwort123!,2037.92,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41014.21
+85,evelyn.sandoval@example.org,Evelyn,Sandoval,david57,1998-01-04,Wallis and Futuna,Passwort123!,0.0,0.0,58886.66,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+86,steven.dunn@example.org,Steven,Dunn,zamorajeff,1965-12-06,Cote d'Ivoire,Passwort123!,67884.66,0.0,0.0,0.0,68724.25,17410.19,45829.16,0.0,0.0,8255.45
+87,mary.ramsey@example.org,Mary,Ramsey,cannonchristopher,1967-07-20,Ireland,Passwort123!,0.0,0.0,34129.11,0.0,63256.51,0.0,0.0,0.0,0.0,0.0
+88,scott.bell@example.org,Scott,Bell,xwashington,1966-04-19,Slovenia,Passwort123!,0.0,79937.91,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+89,david.knapp@example.org,David,Knapp,fkoch,1989-10-05,Aruba,Passwort123!,0.0,36972.28,0.0,0.0,0.0,0.0,0.0,0.0,5719.11,42805.35
+90,william.griffin@example.org,William,Griffin,chris29,1990-09-18,Equatorial Guinea,Passwort123!,0.0,0.0,0.0,0.0,0.0,3175.71,0.0,0.0,0.0,0.0
+91,erin.elliott@example.org,Erin,Elliott,leejames,1971-06-24,Comoros,Passwort123!,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,41244.26
+92,kenneth.hanna@example.org,Kenneth,Hanna,jason10,1973-07-11,Tunisia,Passwort123!,20475.83,0.0,23212.09,0.0,0.0,0.0,0.0,0.0,32509.0,1209.31
+93,monica.olsen@example.org,Monica,Olsen,david83,1988-01-17,Iraq,Passwort123!,56570.36,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+94,jennifer.elliott@example.org,Jennifer,Elliott,rogerskimberly,1980-10-14,Luxembourg,Passwort123!,34470.66,0.0,0.0,0.0,0.0,0.0,12508.35,0.0,9804.29,0.0
+95,adam.may@example.org,Adam,May,espinozarobert,1971-02-18,Peru,Passwort123!,0.0,0.0,0.0,16767.32,0.0,0.0,0.0,0.0,0.0,0.0
+96,mrs..dds@example.org,Mrs.,DDS,jennifer86,2001-05-14,Mauritania,Passwort123!,0.0,0.0,47379.98,0.0,0.0,0.0,21373.16,0.0,58328.17,0.0
+97,john.parker@example.org,John,Parker,harrisjames,1999-03-07,Macao,Passwort123!,0.0,0.0,0.0,72771.67,0.0,0.0,74688.15,0.0,17639.01,0.0
+98,mario.butler@example.org,Mario,Butler,mitchell84,1993-07-05,Mayotte,Passwort123!,0.0,0.0,0.0,0.0,0.0,4.65,0.0,0.0,30.97,0.0
+99,amy.knapp@example.org,Amy,Knapp,woodardfrank,1965-01-26,Bangladesh,Passwort123!,0.0,0.0,0.0,0.0,13706.97,0.0,0.0,0.0,0.0,0.0
+100,robert.sellers@example.org,Robert,Sellers,lwoods,1989-08-04,Serbia,Passwort123!,0.0,29641.68,0.0,0.0,61576.24,0.0,0.0,16336.69,51996.76,0.0

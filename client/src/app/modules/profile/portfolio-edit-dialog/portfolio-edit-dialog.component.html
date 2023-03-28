@@ -1,0 +1,10 @@
+<div *ngIf="this.isLoading; then isLoadingBlock else isNotLoadingBlock"></div>
+<ng-template #isLoadingBlock>
+    <mat-spinner></mat-spinner>
+</ng-template>
+<ng-template #isNotLoadingBlock>
+    <h1 mat-dialog-title i18n="Edit portfolio@@editPortfolioID">Edit your Portfolio</h1>
+    <mat-dialog-content>
+        <app-edit-portfolio></app-edit-portfolio>
+    </mat-dialog-content>
+</ng-template>

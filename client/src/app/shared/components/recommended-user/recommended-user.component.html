@@ -1,0 +1,45 @@
+<h1>Recommended Users for @{{ authService.getUsername() }}</h1>
+<div fxLayout="row wrap" fxLayoutAlign="space-around stretch">
+    <!-- <div fxFlex="20%" fxFlex.xs="100%" fxFlex.sm="50%" fxFlex.md="33%" *ngFor="let user of userList"> -->
+    <carousel [height]="250"  [loop]="true" [arrowsOutside]="false" [margin]="8">
+        <div class="carousel-cell" *ngFor="let user of userList">
+            <mat-card class="mat-elevation-z4" style="margin: 8px;">
+                <mat-card-header>
+                    <img mat-card-avatar class="rounded" src="assets/images/avatar-1299805.svg">
+                    <mat-card-title class="card-title">{{ user.firstName }} {{ user.lastName }}</mat-card-title>
+                    <mat-card-subtitle>
+                        <div class="card-title">
+                            <a [routerLink]="['/profile', user.username]" class="link">{{ user.username }}</a>
+                        </div>
+                    </mat-card-subtitle>
+                </mat-card-header>
+    
+                <mat-card-content class="card-content">
+                    <span class="with-icon">
+                        <mat-icon>person</mat-icon>
+                        <strong>&nbsp;<span i18n="Follower@@FollowerID">Follower</span>:&nbsp;</strong>
+                        {{ user.follower }}
+                    </span>
+    
+                    <span class="with-icon">
+                        <mat-icon>newspaper</mat-icon>
+                        <strong>&nbsp;<span i18n="Posts@@CountPostsID">Posts</span>:&nbsp;</strong> 
+                        {{ user.posts }}
+                    </span>
+    
+                    <span class="with-icon">
+                        <mat-icon>attach_money</mat-icon>
+                        <strong>&nbsp;<span i18n="Trades@@CountTradesID">Trades</span>:&nbsp;</strong>
+                        {{ user.trades }}
+                    </span>
+                </mat-card-content>
+    
+                <mat-card-actions>
+                    <button [routerLink]="['/profile', user.username]" class="link" mat-stroked-button color="accent" i18n="Follow@@FollowButtonID"><mat-icon>person_add</mat-icon> View Profile <mat-icon>person_add_alt_1</mat-icon></button>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </carousel>
+        
+    <!-- </div> -->
+</div>

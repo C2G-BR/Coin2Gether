@@ -1,0 +1,70 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/client/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/client/node_modules
+server/.vscode/settings.json
+
+#cached python files
+server/pylib/__pycache__/*
+*.db
+__pycache__/
+.ipynb_checkpoints
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+client/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+client/package-lock.json
+server/pylib/__pycache__/__init__.cpython-38.pyc
+server/pylib/__pycache__/functions.cpython-38.pyc
+server/tmp/database.db
+server/tmp/database.db
+server/pylib/test.py
+server/pylib/test.py
+server/test.py
+server/migrations/alembic.ini
+server/migrations/*
+server/test.py
+
+#
+**/.ipynb_checkpoints
+**/cache
+**/logs
+/sentiment/saved_sentiment_data
+*.env

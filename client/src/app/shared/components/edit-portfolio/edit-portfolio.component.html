@@ -1,0 +1,35 @@
+<mat-chip-list class="mat-chip-list">
+  <mat-chip *ngFor="let part of portfolio" selected (removed)="deletePart(part)" style="max-width: max-content;">
+    {{ part.currency.acronym}} | {{ part.amount }}
+    <mat-icon matChipRemove>cancel</mat-icon>
+  </mat-chip>
+</mat-chip-list>
+
+<div style="height: 16px;"></div>
+
+<form [formGroup]="portfolioForm" (ngSubmit)="addPart()">
+  <mat-form-field appearance="outline" style="width: 100%;">
+    <mat-label i18n="Please Select a Currency@@select_currency">Please Select a Currency</mat-label>
+    <mat-select formControlName="currency" required>
+      <mat-optgroup *ngFor="let currencyGroup of currencyGroups" [label]="currencyGroup.name">
+        <mat-option *ngFor="let currency of currencyGroup.currencies" [value]="currency" [disabled]="currency.disabled">
+          {{ currency.name }} ({{ currency.acronym}})
+        </mat-option>
+      </mat-optgroup>
+    </mat-select>
+    <mat-error *ngIf="portfolioForm.controls.currency.invalid">{{getCurrencyErrorMessage()}}</mat-error>
+  </mat-form-field>
+
+  <br>
+
+  <mat-form-field appearance="outline" style="width: 100%;">
+    <mat-label i18n="Amount@@amountID">Amount</mat-label>
+    <input matInput placeholder="1000.0" formControlName="amount" required>
+    <mat-error *ngIf="portfolioForm.controls.amount.invalid">{{getAmountErrorMessage()}}</mat-error>
+  </mat-form-field>
+
+  <button type="submit" mat-button [disabled]="!portfolioForm.valid" i18n="Add@@addID"
+    style="width: 100%; margin-left: 0%!important;">Add</button>
+    <button type="submit" (click)='savePortfolio()' mat-button i18n="Save@@saveID"
+    style="width: 100%; margin-left: 0%!important;">Save</button>
+</form>
